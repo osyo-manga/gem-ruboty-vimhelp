@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem "faraday"
+# Specify your gem's dependencies in ruboty-vimhelp.gemspec
+gemspec
