@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Search Vim help.}
   spec.description   = %q{Search Vim help.}
-  spec.homepage      = "https://github.com/osyo-manga/ruboty-vimhelp"
+  spec.homepage      = "https://github.com/osyo-manga/gem-ruboty-vimhelp"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
