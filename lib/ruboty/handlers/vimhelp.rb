@@ -4,7 +4,7 @@ require_relative "../actions/vimhelp.rb"
 module Ruboty module Handlers
 	class VimHelp < Base
 		on(
-			/:help (?<query>.+)/,
+			/:(h|help) (?<query>.+)/,
 			name: "help",
 			description: "Show ':help {query}' from vim.",
 		)
